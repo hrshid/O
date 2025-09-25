@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Harshid Panchal</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="fa-solid fa-graduation-cap text-warning"></i> 
+        <span>KidsLearning</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Why Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Parents</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-2"><a class="btn btn-primary btn-sm" href="pages/enroll.html">Enroll Now</a></li>
+          <li class="nav-item ms-2"><a class="btn btn-primary btn-sm" href="pages/login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <h1 class="display-5 fw-bold">Fun, safe online classes for curious kids</h1>
+          <p class="lead text-muted">Interactive lessons in coding, arts, maths and speech — designed for ages 4–12. Short sessions, big smiles.</p>
+          <div class="d-flex gap-2">
+            <a class="btn btn-primary btn-lg" href="#courses" role="button">Browse Courses</a>
+            <a class="btn btn-outline-secondary btn-lg" href="#features" role="button">How it works</a>
+          </div>
+          <ul class="mt-4 small text-muted">
+            <li>Live & recorded lessons</li>
+            <li>Safe classroom moderation</li>
+            <li>Certificates & progress badges</li>
+          </ul>
+        </div>
+        <div class="col-md-5 mt-4 mt-md-0 text-center">
+          <!-- Decorative image / illustration -->
+          <img src="images/main_girl.jpg" alt="Children learning" class="img-fluid rounded shadow-sm hero-img">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- COURSES -->
+  <section id="courses" class="py-5 bg-light">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="h3">Live Classes for Std. 1–5</h2>
+      <a href="pages/courses.html" class="small">See all courses <i class="fa-solid fa-arrow-right ms-1"></i></a>
+    </div>
+
+    <div class="row g-3">
+      <!-- Math -->
+      <div class="col-sm-6 col-lg-4">
+        <article class="card course-card h-100">
+          <img src="images/math.jpg" class="card-img-top" alt="Math Fun">
+          <div class="card-body">
+            <h5 class="card-title">Fun Math Puzzles</h5>
+            <p class="card-text small text-muted">Interactive games, puzzles & activities to make numbers exciting for Std. 1–5.</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <div class="badge bg-light text-dark">Live Class</div>
+              <div><strong>₹499</strong></div>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a class="btn btn-sm btn-outline-primary w-100" href="#enroll">Enroll</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- English -->
+      <div class="col-sm-6 col-lg-4">
+        <article class="card course-card h-100">
+          <img src="images/english.jpg" class="card-img-top" alt="English Reading">
+          <div class="card-body">
+            <h5 class="card-title">English Reading & Stories</h5>
+            <p class="card-text small text-muted">Storytelling, phonics & reading practice to build confidence in English.</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <div class="badge bg-light text-dark">Live Class</div>
+              <div><strong>₹499</strong></div>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a class="btn btn-sm btn-outline-primary w-100" href="#enroll">Enroll</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Science -->
+      <div class="col-sm-6 col-lg-4">
+        <article class="card course-card h-100">
+          <img src="images/science.jpg" class="card-img-top" alt="Science Experiments">
+          <div class="card-body">
+            <h5 class="card-title">Science Experiments</h5>
+            <p class="card-text small text-muted">Simple fun experiments & activities to spark curiosity in young minds.</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <div class="badge bg-light text-dark">Live Class</div>
+              <div><strong>₹599</strong></div>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a class="btn btn-sm btn-outline-primary w-100" href="#enroll">Enroll</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Coding -->
+      <div class="col-sm-6 col-lg-4">
+        <article class="card course-card h-100">
+          <img src="images/coding.jpg" class="card-img-top" alt="Kids Coding">
+          <div class="card-body">
+            <h5 class="card-title">Beginner Coding</h5>
+            <p class="card-text small text-muted">Block-based coding & animations made easy for Std. 3–5 students.</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <div class="badge bg-light text-dark">Live Class</div>
+              <div><strong>₹699</strong></div>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a class="btn btn-sm btn-outline-primary w-100" href="#enroll">Enroll</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Art & Craft -->
+      <div class="col-sm-6 col-lg-4">
+        <article class="card course-card h-100">
+          <img src="images/artcraft.jpg" class="card-img-top" alt="Art Craft">
+          <div class="card-body">
+            <h5 class="card-title">Art & Craft Club</h5>
+            <p class="card-text small text-muted">Drawing, painting & crafts to boost imagination and creativity.</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <div class="badge bg-light text-dark">Live Class</div>
+              <div><strong>₹399</strong></div>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a class="btn btn-sm btn-outline-primary w-100" href="#enroll">Enroll</a>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- FEATURES -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="h3 mb-4">Why parents choose HappyKidz</h2>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="p-4 h-100 feature-card">
+            <i class="fa-solid fa-shield-halved fa-2x mb-3"></i>
+            <h5>Safe & moderated</h5>
+            <p class="small text-muted">All live sessions are moderated; no public chats. Teacher-vetted curriculum.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 h-100 feature-card">
+            <i class="fa-solid fa-chalkboard-teacher fa-2x mb-3"></i>
+            <h5>Expert teachers</h5>
+            <p class="small text-muted">Qualified, background-checked instructors who love working with kids.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 h-100 feature-card">
+            <i class="fa-solid fa-award fa-2x mb-3"></i>
+            <h5>Progress & badges</h5>
+            <p class="small text-muted">Short modules with badges and certificates to motivate learners.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="h3 mb-4">What parents say</h2>
+
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card p-4">
+              <p class="mb-2">"My daughter loves her coding class — the teacher makes it fun and easy."</p>
+              <div class="d-flex align-items-center">
+                <img src="images/review01.jpg" class="rounded-circle me-3" alt="parent">
+                <div>
+                  <strong class="d-block small">Priya R.</strong>
+                  <small class="text-muted">Pune</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card p-4">
+              <p class="mb-2">"Great moderation and short classes — perfect for my 6-year-old."</p>
+              <div class="d-flex align-items-center">
+                <img src="images/review02.jpg" class="rounded-circle me-3" alt="parent">
+                <div>
+                  <strong class="d-block small">Rahul S.</strong>
+                  <small class="text-muted">Ahmedabad</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="h3 mb-3">Frequently asked</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="faq1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+              Are classes live or recorded?
+            </button>
+          </h3>
+          <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+            <div class="accordion-body small text-muted">
+              We offer live sessions plus recordings for parents to view later. Live sessions provide interaction; recordings are available one Week.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="faq2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+              How do you ensure safety online?
+            </button>
+          </h3>
+          <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+            <div class="accordion-body small text-muted">
+              Each session has a moderator, and parents join in for the first lesson. No public chat; private questions go to the teacher.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER / CONTACT -->
+  <footer id="contact" class="py-4 bg-dark text-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h5>Get in touch</h5>
+          <p class="small mb-1">Email: panchalharshil056@gmail.com</p>
+          <p class="small mb-0">Phone: +91 95108 40744</p>
+        </div>
+        <div class="col-md-6 text-md-end mt-3 mt-md-0">
+          <a class="text-light me-3" href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+          <a class="text-light me-3" href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+          <a class="text-light" href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
+        </div>
+      </div>
+      <div class="text-center mt-3 small text-muted">© <span id="year"></span> HappyKidz. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script/script.js"></script>
+</body>
+</html>

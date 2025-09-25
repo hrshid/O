@@ -1,0 +1,55 @@
+  
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: #fff9f1;
+      color: #333;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Baloo 2', cursive;
+      color: #ff7b54;
+    }
+    .navbar-brand span {
+      font-family:'Baloo 2', cursive;
+      font-weight:700;
+      font-size:1.3rem;
+    }
+    .courses-section {
+      padding: 80px 0;
+    }
+    .course-card {
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      background: #fff;
+    }
+    .course-card:hover {
+      transform: translateY(-8px);
+    }
+    .course-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .course-card .card-body {
+      padding: 20px;
+    }
+    .btn-enroll {
+      background-color: #ff7b54;
+      color: #fff;
+      font-family: 'Baloo 2', cursive;
+      font-weight: 600;
+      border-radius: 12px;
+      padding: 8px 18px;
+      transition: 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn-enroll:hover {
+      background-color: #ffb26b;
+      color: #fff;
+    }
+    footer {
+      background: #ff7b54;
+      color: #fff;
+    }
+  

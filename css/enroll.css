@@ -1,0 +1,48 @@
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: #fff9f1;
+      color: #333;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Baloo 2', cursive;
+      color: #ff7b54;
+    }
+    .navbar-brand span {
+      font-family:'Baloo 2', cursive;
+      font-weight:700;
+      font-size:1.3rem;
+    }
+    .enroll-section {
+      padding: 80px 0;
+    }
+    .form-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    .btn-enroll {
+      background-color: #ff7b54;
+      color: #fff;
+      font-family: 'Baloo 2', cursive;
+      font-weight: 600;
+      border-radius: 12px;
+      padding: 12px 20px;
+      transition: 0.3s;
+    }
+    .btn-enroll:hover {
+      background-color: #ffb26b;
+      color: #fff;
+    }
+    .requirements {
+      background: #ffe6d6;
+      border-left: 5px solid #ff7b54;
+      padding: 15px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    footer {
+      background: #ff7b54;
+      color: #fff;
+    }

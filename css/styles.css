@@ -1,0 +1,130 @@
+:root{
+  --primary:#FF6B6B;    /* Coral Pink */
+  --accent:#FFD93D;     /* Sunshine Yellow */
+  --support:#6BCB77;    /* Playful Green */
+  --muted:#6c757d;      /* Neutral gray for text */
+  --bg-soft:#F9F9F9;    /* Soft background */
+}
+
+/* Logo circle becomes fun pink */
+.logo-circle{
+  width:40px;
+  height:40px;
+  border-radius:8px;
+  background:linear-gradient(135deg,var(--primary), #FF8E8E);
+  color:white;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  box-shadow:0 4px 10px rgba(255,107,107,0.3);
+}
+
+/* Hero section */
+.hero{
+  background:linear-gradient(180deg, var(--bg-soft) 0%, #fff 100%);
+}
+.hero h1{
+  color:var(--primary);
+}
+.hero-img{
+  max-width:320px;
+  border-radius:18px;
+  object-fit:cover;
+  border:5px solid var(--accent);
+}
+
+/* Buttons */
+.btn-primary{
+  background-color:var(--primary);
+  border-color:var(--primary);
+}
+.btn-primary:hover{
+  background-color:#ff5252;
+  border-color:#ff5252;
+}
+.btn-outline-primary{
+  color:var(--primary);
+  border-color:var(--primary);
+  border-radius:10px;
+}
+.btn-outline-primary:hover{
+  background-color:var(--primary);
+  color:#fff;
+}
+
+/* Course cards */
+.course-card img{
+  height:160px;
+  object-fit:cover;
+  border-top-left-radius:0.5rem;
+  border-top-right-radius:0.5rem;
+}
+.course-card .card-title{
+  color:var(--primary);
+}
+.course-card .badge{
+  background-color:var(--accent);
+  color:#333;
+  font-weight:600;
+}
+
+/* Feature cards */
+.feature-card{
+  border-radius:12px;
+  background:linear-gradient(90deg,#fff,var(--bg-soft));
+  box-shadow:0 6px 18px rgba(16,24,40,0.06);
+}
+.feature-card i{
+  color:var(--support);
+}
+
+/* Footer */
+footer{
+  background:var(--primary);
+  color:#fff;
+  border-top:1px solid rgba(255,255,255,0.15);
+}
+footer a{
+  color:var(--accent);
+}
+
+/* Apply fonts */
+body{
+  font-family: 'Quicksand', sans-serif;
+  color:#333;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* Headings use fun Baloo */
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Baloo 2', cursive;
+  font-weight:700;
+  color:var(--primary);
+}
+
+/* Navbar brand */
+.navbar-brand span{
+  font-family:'Baloo 2', cursive;
+  font-weight:700;
+  font-size:1.3rem;
+}
+
+/* Buttons text a bit bolder */
+.btn{
+  font-family: 'Baloo 2', cursive;
+  font-weight:600;
+  letter-spacing:0.3px;
+}
+
+/* Course card titles */
+.course-card .card-title{
+  font-family:'Baloo 2', cursive;
+  font-weight:600;
+}
+
+/* Small text stays clean Quicksand */
+p, small, .card-text, .accordion-body{
+  font-family:'Quicksand', sans-serif;
+}
